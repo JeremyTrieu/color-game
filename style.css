@@ -1,0 +1,105 @@
+body {
+  background-color: #0d001a;
+}
+#game-name {
+  margin-top: 1%;
+  text-align: center;
+  font-family: Arial;
+  font-size: 50px;
+  color: #ffffff;
+}
+img {
+  height: 180px;
+  width: 150px;
+  position: center;
+}
+.center {
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+.level-time {
+  margin-bottom: -0.5%;
+  margin-top: 2%;
+}
+.level-block {
+  margin-top: 0.5%;
+  position: absolute;
+  left: 500px;
+}
+.time-block {
+  margin-top: -9%;
+  position: fixed;
+  right: 500px;
+}
+.level-label {
+  font-family: Arial;
+  color: #FF1493;
+}
+#level {
+  font-family: Arial;
+  color: #FF1493;
+  text-align: center;
+}
+.time-level {
+  font-family: Arial;
+  color: #FF1493;
+}
+#time-countdown {
+  font-family: Arial;
+  color: #FF1493;
+  text-align: center;
+}
+.button-list {
+  position: static;
+  margin-top: 2%;
+}
+#start-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: Arial;
+  position: absolute;
+  left: 475px;
+  font-style: bold;
+}
+#start-button:hover {
+  font-size: 25px;
+}
+#pause-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: Arial;
+  position: absolute;
+  right: 460px;
+  font-style: bold;
+}
+#pause-button:hover {
+  font-size: 25px;
+}
+.circle {
+  width: 48%;
+  background: orange;
+  padding-bottom: 48%;
+  float: left;
+  margin: 0.5%;
+  border-radius: 50%;
+}
+#container {
+  padding: 5%;
+  max-width: 500px;
+  margin: 0 auto;
+}
