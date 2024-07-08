@@ -210,7 +210,7 @@ startButton.addEventListener("click", function() {
       var newContent = document.createTextNode("GAME OVER");
       var newButton = document.createElement("BUTTON");
       newButton.addEventListener("click", function() {
-        window.location = 'interface.html';
+        window.location = 'index.html';
       });
       newButton.innerHTML = "REPLAY";
       levelNumber.style.fontSize = "120px";
@@ -265,7 +265,7 @@ startButton.addEventListener("click", function() {
           var newContent = document.createTextNode("GAME OVER");
           var newButton = document.createElement("BUTTON");
           newButton.addEventListener("click", function() {
-            window.location = 'interface.html';
+            window.location = 'index.html';
           });
           newButton.innerHTML = "REPLAY";
           levelNumber.style.fontSize = "120px";
